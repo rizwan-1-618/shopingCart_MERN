@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+.DS_Store
+*.log
+API_REQUESTS.md
+TA_VIVA.md
+PROJECT_REVIEW.md

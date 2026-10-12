@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", serif;
+  --font-sans: "Figtree", sans-serif;
+  --color-ink: #221c16;
+  --color-paper: #f3ecdf;
+  --color-card: #fffaf3;
+  --color-accent: #b8431f;
+  --color-accent-dark: #8d3014;
+  --color-line: #e4d8c4;
+  --color-pine: #1f4d3a;
+  --color-muted: #6d6256;
+  --color-danger: #9f1239;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(1100px 480px at 0% -10%, rgb(184 67 31 / 0.14), transparent 60%),
+    #f3ecdf;
+  color: #221c16;
+  font-family: var(--font-sans);
+}
+
+#root {
+  min-height: 100vh;
+}
